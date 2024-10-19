@@ -3,7 +3,7 @@ function endereco(){
     const ceps = document.getElementById('cep').value
     const resultado = document.querySelector('.resultado')
 
-    fetch(`http://viacep.com.br/ws/${ceps}/json/`) //APi
+    fetch(`https://viacep.com.br/ws/${ceps}/json/`) //APi
     .then(res => res.json())
     .then(data => {
         resultado.innerHTML = `<br>Rua: <b>${data.logradouro }</b>
