@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: cadetblue;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 200%;
+}
+
+section{
+    width: 700px;
+    margin-left: 480px;
+}
+
+input, button{
+    font-size: 105%;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.resultado{
+    text-align: start;
+}
