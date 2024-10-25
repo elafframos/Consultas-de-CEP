@@ -3,21 +3,36 @@
 }
 
 body{
-    background-color: cadetblue;
+    background: rgb(15,79,82);
+    background: linear-gradient(90deg, rgba(15,79,82,1) 0%, rgba(37,121,172,1) 50%, rgba(15,79,82,1) 100%);
     text-align: center;
     margin-top: 90px;
     font-size: 200%;
 }
 
+h1{
+    color: white;
+}
+
 section{
-    width: 700px;
-    margin-left: 480px;
+    width: 620px;
+    margin-left: 520px;
 }
 
 input, button{
     font-size: 105%;
     border-radius: 10px;
-    padding: 4px;
+    padding: 10px;
+}
+
+button{
+    background-color: rgb(0, 211, 18);
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 168, 0);
 }
 
 .resultado{
