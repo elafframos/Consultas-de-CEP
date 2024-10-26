@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Consulta de CEPS</h1> <br><br>
+
     <section>
-        <label>CEP:</label>
-        <input type="text" id="cep">
-        <button onclick="endereco()">Pesquisar</button>
+        <h1>Consulta de CEPS</h1> <br><br>
+        <div class="container">
+            <input type="text" id="cep" placeholder="Digite um CEP">
+            <button onclick="endereco()">Pesquisar</button>
+        </div>
+        <div class="resultado-wrapper">
+            <div class="resultado">
 
-        <p class="resultado">
-
-        </p>
+            </div>
+        </div>
     </section>
 
     <script src="script.js"></script>
